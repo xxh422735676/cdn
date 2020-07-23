@@ -70,7 +70,7 @@ function randomRange(min,max){
 		renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
 		var material = new THREE.ParticleBasicMaterial( { map: new THREE.Texture(particleImage) } );
 			//alert("message2");
-		for (var i = 0; i < 150; i++) {
+		for (var i = 0; i < 100; i++) {
 			//alert("message");
 			particle = new Particle3D( material);
 			particle.position.x = Math.random() * 2000-1000;
